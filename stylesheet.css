@@ -1,0 +1,90 @@
+body {
+  background-color:  #cccccc;
+}
+
+h1{
+  text-align: center;
+  margin: 43px 0px 23px;
+  color:rgb(129 126 126 / 40%);
+  text-shadow: 2px 1px #00ff40;
+  font-size: 37px;
+  font-family: cursive;
+}
+
+.word-vowel-counter{
+  display: flex;
+  border: 1px solid rgb(129 126 126 / 40%);
+  height: auto;
+  margin: 0px 89px;
+  border-radius: 9px;
+  flex-direction: column;
+  padding: 5px 11px;
+}
+
+label{
+  color: rgba(87, 83, 83, 0.4);
+  margin: 0px;
+  font-size: smaller;
+}
+
+#paragraph-text:focus{
+  outline-color: #065fd4;
+}
+
+#paragraph-text{
+  resize: vertical;
+  height: 115px;
+  padding: 7px;
+  margin: 7px 7px 5px;
+  border: 1px solid rgb(129 126 126 / 40%);
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: #cccccc;
+}
+
+.button-container{
+  flex-direction: row;
+  text-align: center;
+  margin: 3px;  
+}
+
+#count-word-vowel:hover, #reset:hover{
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(31, 29, 29, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#count-word-vowel{
+  background-color: rgb(94,32,230);
+}
+
+#reset{
+  background-color: rgb(215,0,21);
+}
+
+#count-word-vowel, #reset{  
+  border: 0px;
+  border-radius: 3px;
+  font: bolder;
+  color: white;
+  padding: 2px 5px;
+}
+
+.display-count-for-vowel-word{
+  margin: 47px ;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+
+#vowel-count{
+  margin: 0px 0px 8px;
+  color: rgb(48,176,199);
+}
+
+#word-count{
+  margin: 0px;
+  color: rgb(162,132,94);
+}
+
+
+

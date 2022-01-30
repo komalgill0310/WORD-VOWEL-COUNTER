@@ -7,23 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WORD + VOWEL COUNTER</title>
 
-  <link rel="stylesheet" href="stylesheet.cs">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
   <div class="main-container">
-    <h1>WORD + VOWEL COUNTER</h1>
+    <h1>Word & Vowel Counter App</h1>
 
     <div class="word-vowel-counter">
-      <label for="paragraph-text">
-        <textarea name="paragraph-text" id="paragraph-text" cols="55" rows="8" required></textarea>
+      <!-- <p id="text">Enter your text here below</p> -->
+      <label for="paragraph-text">Enter your text below</label>
+      <textarea name="paragraph-text" id="paragraph-text" cols="25" rows="5" required></textarea>
+      <div class="button-container">
         <button id="count-word-vowel">Count-word&vowel</button>
-      </label>
-
-      <div class="vowel-word-count">
-        <p id="vowel-count"></p>
-        <p id="word-count"></p>
+        <button id="reset">Reset</button>
       </div>
+    </div>
+
+    <div class="display-count-for-vowel-word">
+      <p id="vowel-count"></p>
+      <p id="word-count"></p>
     </div>
   </div>
 

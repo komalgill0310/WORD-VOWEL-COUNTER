@@ -2,7 +2,7 @@
 
 <font size = 6> This application is simply written in ***JavaScript, HTML and CSS***</font>
 
-<font size=5> Live Version ***[here](https://komalgill0310.github.io/Pomodoro-Timer/)***</font>
+<font size=5> Live Version ***[here](https://komalgill0310.github.io/WORD-VOWEL-COUNTER/)***</font>
 
 <img src = "app screenshot\work_Timer.png">
 

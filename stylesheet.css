@@ -4,7 +4,7 @@ body {
 
 h1{
   text-align: center;
-  margin: 43px 0px 23px;
+  margin: 81px 0px 23px;
   color:rgb(129 126 126 / 40%);
   text-shadow: 2px 1px #00ff40;
   font-size: 37px;
@@ -33,7 +33,7 @@ label{
 
 #paragraph-text{
   resize: vertical;
-  height: 115px;
+  height: 207px;
   padding: 7px;
   margin: 7px 7px 5px;
   border: 1px solid rgb(129 126 126 / 40%);
@@ -67,6 +67,7 @@ label{
   font: bolder;
   color: white;
   padding: 2px 5px;
+  font-weight: bolder;
 }
 
 .display-count-for-vowel-word{

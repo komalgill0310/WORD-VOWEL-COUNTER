@@ -77,6 +77,10 @@ label{
   color: black;
 }
 
+#vowel-count, #word-count{
+  font-size: 45px;
+}
+
 #vowel-count{
   margin: 0px 0px 8px;
   color: rgb(48,176,199);

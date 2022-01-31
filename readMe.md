@@ -4,9 +4,7 @@
 
 <font size=5> Live Version ***[here](https://komalgill0310.github.io/WORD-VOWEL-COUNTER/)***</font>
 
-<img src = "app screenshot\work_Timer.png">
-
-<img src = "app screenshot\rest_Timer.png">
+<img src = "Demo_Word_Vowel_Counter_App.gif">
 
 # **Summary**
 <font size=5>

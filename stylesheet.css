@@ -4,27 +4,27 @@ body {
 
 h1{
   text-align: center;
-  margin: 11px 0px 23px;
-  color:rgb(129 126 126 / 40%);
   text-shadow: 2px 1px #00ff40;
   font-size: 57px;
   font-family: cursive;
+  margin: 111px 0px 23px;
+  color:rgb(129 126 126 / 40%);
 }
 
 .word-vowel-counter{
   display: flex;
+  flex-direction: column;
   border: 1px solid rgb(129 126 126 / 40%);
+  border-radius: 9px;
   height: auto;
   margin: 0px 89px;
-  border-radius: 9px;
-  flex-direction: column;
-  padding: 5px 11px;
+  padding: 5px 11px; 
 }
 
 label{
-  color: rgba(87, 83, 83, 0.4);
-  margin: 0px;
   font-size: smaller;
+  margin: 0px;
+  color: rgba(87, 83, 83, 0.4);
 }
 
 #paragraph-text:focus{
@@ -32,17 +32,17 @@ label{
 }
 
 #paragraph-text{
+  font-size: 13px;
   resize: vertical;
-  height: 207px;
-  padding: 7px;
+  height: 207px;  
   margin: 7px 7px 5px;
+  padding: 7px;
   border: 1px solid rgb(129 126 126 / 40%);
   border-radius: 5px;
-  font-size: 13px;
   background-color: #cccccc;
 }
 
-.button-container{
+.count-word-vowel-reset-button-container{
   flex-direction: row;
   text-align: center;
   margin: 3px;  
@@ -61,24 +61,24 @@ label{
   background-color: rgb(215,0,21);
 }
 
-#count-word-vowel, #reset{  
+#count-word-vowel, #reset{ 
+  font-size: 25px; 
+  font-weight: bolder;
   border: 0px;
   border-radius: 3px;
-  font: bolder;
   color: white;
-  padding: 2px 5px;
-  font-weight: bolder;
+  padding: 2px 5px;  
 }
 
 .display-count-for-vowel-word{
-  margin: 47px ;
   text-align: center;
   font-weight: bolder;
+  margin: 47px ;
   color: black;
 }
 
 #vowel-count, #word-count{
-  font-size: 35px;
+  font-size: 31px;
   font-weight: bolder;
 }
 

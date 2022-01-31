@@ -1,9 +1,9 @@
 let text = document.getElementById("paragraph-text");
 
-displayNumberOfVowelAndWord();
+displayContainedVowelAndWordInText();
 resetApp();
 
-function displayNumberOfVowelAndWord() {
+function displayContainedVowelAndWordInText() {
   document.getElementById("count-word-vowel").addEventListener("click", (e) => {
     e.preventDefault();
     if (isTextBoxEmpty()) {
@@ -26,24 +26,12 @@ function isTextBoxEmpty() {
 }
 
 function countVowels() {
-  const regEx = (/(?=[aeiou])|([aeiou])/gim);
-  const findVowels = text.value.match(regEx);
-  // if(findVowels){
-  //   console.log("hey");
-  // }
-  // else{
-  //   console.log("no match!");
-  // }
-  // const findVowels = text.value.match(/[aeiou]/gim);
-  const vowelCount = findVowels.length;
-// if(vowelCount === text.value.match(/[^aeiou]/gim)){
-//    console.log('hello');
-// }
-  document.getElementById("vowel-count").textContent = `Contains ${vowelCount}vowels`;
+  const vowelCount = text.value.match(/[aeiou]/gim).length;
+  document.getElementById("vowel-count").textContent = `Contains ${vowelCount}vowels`;  
 }
 
 function countWords() {
-  let wordCount = text.value.match(/([^\s])+/gim).length;
+  const wordCount = text.value.match(/([^\s])+/gim).length;
   document.getElementById("word-count").textContent = `Contains ${wordCount}words`;
 }
 

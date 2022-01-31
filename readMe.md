@@ -16,4 +16,4 @@
 * It was a great project for getting a better understanding of **Regular Expressions**.
 
 # Author
-<font size=5>Komal - | Software Developer | Personl Website is in progress | [LinkedIn](www.linkedin.com/in/komalpreet-kaur-3b6924177)
+<font size=5>Komal - | Software Developer | Personl Website is in progress | [LinkedIn](https://www.linkedin.com/in/komalpreet-kaur-3b6924177/)
